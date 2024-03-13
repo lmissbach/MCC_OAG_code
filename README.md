@@ -1,8 +1,12 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
-13/03 : Goal, try to run for 1 month within one country , january 2015. 
-Start writing script to prompt withing country flight and see how it works
+### 13/03 checkpoint 
+Today i worked on setting chromedriver -> Selenium needs to work with chromedriver because Selenium itself doesn't directly interact with web browsers like Google. It uses a driver specific to each browser to communicate and control the browser. chromedriver is the link between Selenium commands and Google Chrome's actions. 
+Where I pick up from next time: now my Chromedriver and my google are the same version but i still get error messages in the script, next time i work on debugging 
+
+Goal, try to run for 1 month within one country , january 2015. 
+Start writing script to prompt within country flight and see how it works
 How quickly can we do these prompts 
 Trying code out on SkyScanner website https://www.skyscanner.de/?previousCultureSource=COOKIE&redirectedFrom=www.skyscanner.net
 Using python for now 
