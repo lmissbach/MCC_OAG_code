@@ -1,6 +1,9 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 15/03 checkpoint 
+Today debugging. Problem might be that my chromedriver is not currently executable - this video is helpful https://youtu.be/Xjv1sY630Uc?si=LWF03StiQlxhz8Ty
+
 ### 13/03 checkpoint 
 Today i worked on setting chromedriver -> Selenium needs to work with chromedriver because Selenium itself doesn't directly interact with web browsers like Google. 
 Relevant for webscraping ->  chromedriver allows Selenium to interact with the parameters in the OAG homepage - avg fare destinations etc. 
@@ -21,5 +24,7 @@ Power table report -> select airport, all connections between Berlin and Paris, 
 Average fare, booking class -> Creates a table to export -> Formalt XLSX 
 Problem, 1 million rows, you have to manually select combinations 
 10-15 country groups, from each of them prompt the fares between groups, 220 prompts fro 6 years 
+
+
 
 
