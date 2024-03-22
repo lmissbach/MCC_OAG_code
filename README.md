@@ -2,6 +2,11 @@
 This private repo tracks the progress on scraping OAG 
 
 ### 22/03
+switchd from jupyter notebook to vscode
+managed scraping on a newspaper, insert things in a search bar 
+https://youtu.be/NB8OceGZGjA?si=74n7tlCnRPzLqLqm this video was useful 
+next time i try with skyscanner but they most likely have some protection against bots, maybe i start trying some things out on OAG but wanna be sure not to fiddle with the page too much 
+
 
 
 ### 15/03 checkpoint 
