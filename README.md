@@ -1,6 +1,9 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 22/03
+
+
 ### 15/03 checkpoint 
 Today debugging. Problem might be that my chromedriver is not currently executable - this video is helpful https://youtu.be/Xjv1sY630Uc?si=LWF03StiQlxhz8Ty
 
