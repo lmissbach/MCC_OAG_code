@@ -1,6 +1,13 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 26/03 
+problem with log in detail, trying on the hertie connect page
+try manually inserting the login for the password 
+try to scrape the world bank data to practice ticking bozed and useful also to compare the vertical and horizontal data with other from accredited sources
+
+
+
 ### 22/03
 switchd from jupyter notebook to vscode
 managed scraping on a newspaper, insert things in a search bar 
