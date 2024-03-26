@@ -1,5 +1,6 @@
 #from bs4 import BeautifulSoup
 #import requests
+import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
@@ -15,7 +16,7 @@ from selenium.webdriver.common.keys import Keys
 
 service = Service(executable_path="chromedriver.exe")
 driver = webdriver.Chrome(service = service)
-driver.get("https://www.ilblast.it/")
+driver.get("https://www.ilblast.it/cerca/")
 
 input_element = driver.find_element(By.CLASS_NAME, "search-input") # this allows us to select the part in the html that we want to access 
 input_element.send_keys("Ciao!" + Keys.ENTER)
