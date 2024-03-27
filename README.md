@@ -1,6 +1,12 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 27/03
+Working of OAG, next steps complete the code with the comments and add the segment thing to solve the error I get 
+Try to download 
+find ways to be more invisible 
+
+
 ### 26/03 
 problem with log in detail, trying on the hertie connect page
 try manually inserting the login for the password 
