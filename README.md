@@ -1,6 +1,14 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 03/04
+Scraping produces a report but only on the connection berlin - Munich, must make sure that it generates 
+- 1) more than one connection , so not only from berlin to mum but from berlin to all the airports in the UK for example 
+- 2) make sure that it can download more than one report at the time in the Job bin 
+ 
+Also, add a commented out code in case theres the need to select a specific time frame 
+
+
 ### 27/03
 - Working of OAG, next steps complete the code with the comments and add the segment thing to solve the error I get 
 - Try to download 
