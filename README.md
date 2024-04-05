@@ -1,9 +1,23 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+### 05/04
+- Automatize request such that this runs for each. Start from jan 2016
+- change report export, XLSX
+- report name is ORIGIN_DESTINATION_date
+
+#### More generally on the OAG Platform 
+- Understand difference between one way, two ways, aggregate
+- check difference between segment and origin destination
+- can it download reports together
+  
+#### To keep in mind for next steps 
+- At some point, from module, reference, airport codes, use R or Python to remove duplicates, like in germany, aachen maastricht appears twice
+- ideally in the python or smt, insert country.group -> select all countries corresponding to that-> run analysis between country groups
+
 ### 03/04
 Scraping produces a report but only on the connection berlin - Munich, must make sure that it generates 
-- 1) more than one connection , so not only from berlin to mum but from berlin to all the airports in the UK for example 
+- 1) more than one connection , so not only from berlin to munich but from berlin to all the airports in the UK for example 
 - 2) make sure that it can download more than one report at the time in the Job bin 
  
 Also, add a commented out code in case theres the need to select a specific time frame 
