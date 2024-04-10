@@ -1,6 +1,9 @@
 # MCC_OAG_code
 This private repo tracks the progress on scraping OAG 
 
+# 10/04
+- Must give a good think to how the big for loop will come about
+
 ### 05/04
 - Automatize request such that this runs for each. Start from jan 2016
 - change report export, XLSX
