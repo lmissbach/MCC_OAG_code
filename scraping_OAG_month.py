@@ -1,3 +1,5 @@
+# Like scraping AOG with the difference that I am trying out how to select the time 
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -55,6 +57,27 @@ booking_class = WebDriverWait(driver, 10).until(
     EC.element_to_be_clickable((By.LINK_TEXT, "Booking Class"))
 )
 booking_class.click()
+
+# Period 
+# Can only scrape 5 years at the time 
+# Probs makes sense to do one year at the time 
+
+# From 
+from_month = WebDriverWait(driver, 10).until(
+    EC.element_to_be_clickable((By.XPATH, '//*[@id="dateGroup"]/span/div[1]/div[2]/div[4]/span[3]/span/select"]'))
+)
+from_month.click()
+
+# Select a month. This part will require a for loop 
+
+# To 
+to_month = WebDriverWait(driver, 10).until(
+    EC.element_to_be_clickable((By.XPATH, '//*[@id="dateGroup"]/span/div[1]/div[2]/div[4]/div/span[3]/span/select"]'))
+)
+to_month.click()
+
+# Select a month 
+
 
 # Click Origin & Destination
 origin_destination = driver.find_element(By.PARTIAL_LINK_TEXT, "Origin &")
